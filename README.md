@@ -1,4 +1,4 @@
-# Passwordless-MongoStore
+# Passwordless-MemoryStore
 
 This module provides token storage for [Passwordless](https://github.com/florianheinemann/passwordless), a node.js module for express that allows website authentication without password using verification through email or other means. Visit the project's website https://passwordless.net for more details.
 
