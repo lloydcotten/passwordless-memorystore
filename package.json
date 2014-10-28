@@ -1,0 +1,40 @@
+{
+  "name": "passwordless-memorystore",
+  "version": "0.0.1",
+  "description": "In-memory TokenStore for Passwordless",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lloydcotten/passwordless-memorystore.git"
+  },
+  "keywords": [
+    "passwordless",
+    "memory",
+    "nopassword",
+    "no-password",
+    "password-less",
+    "tokenstore"
+  ],
+  "author": "Lloyd Cotten <lloyd@lloydcotten.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lloydcotten/passwordless-memorystore/issues"
+  },
+  "homepage": "https://github.com/lloydcotten/passwordless-memorystore",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chance": "^0.6.1",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.2",
+    "mocha": "^2.0.1",
+    "node-uuid": "^1.4.1",
+    "passwordless-tokenstore-test": "^0.1.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.1.0",
+    "passwordless-tokenstore": "0.0.10"
+  }
+}
